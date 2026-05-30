@@ -1,0 +1,68 @@
+h2, h3{
+    text-align: center;
+}
+
+form {
+    display: flex; 
+    gap: 30px; 
+    margin: 0 auto 30px auto; 
+    background-color: #d4d4d4;
+    padding: 20px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.btnSalvar{
+    background-color: rgba(0, 255, 0, 0.3);
+    border-radius: 7px;
+}
+
+.btnSalvar:hover{
+    background-color: rgba(0, 255, 0, 0.2);
+    border-radius: 7px;
+}
+
+.grid-tabelas { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.card { 
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative; 
+    transition: background-color 0.3s; 
+}
+
+.card:hover { 
+    background-color: #e2e2e2; 
+}
+
+.botoes-acao {
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+}
+
+.btnEditar{
+    background-color: rgba(0, 0, 255, 0.3);
+    border-radius: 7px;
+}
+
+.btnEditar:hover{
+    background-color: rgba(0, 0, 255, 0.2);
+    border-radius: 7px;
+}
+
+.btnDeletar{
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 7px;
+}
+
+.btnDeletar:hover{
+    background-color: rgba(255, 0, 0, 0.2);
+    border-radius: 7px;
+}

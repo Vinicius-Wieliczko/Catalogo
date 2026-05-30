@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Insumos</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h2>Cadastro de Insumos</h2>
+    
+    <form id="form">
+        <input type="hidden" id="id">
+        <input type="text" id="nome" placeholder="Nome" required>
+        <select id="categoria">
+            <option value="Químicos e Minerais">Químicos e Minerais</option>
+            <option value="Biológicos">Biológicos</option>
+        </select>
+        <input type="number" id="quantidade" placeholder="Qtd" required>
+        <input type="text" id="descricao" placeholder="Descrição" required>
+        <button class="btnSalvar" type="submit">Salvar</button>
+    </form>
+
+    <div class="grid-tabelas">
+        <div>
+            <h3>Químicos e Minerais</h3>
+            <div id="lista-quimicos"></div>
+        </div>
+        <div>
+            <h3>Biológicos</h3>
+            <div id="lista-biologicos"></div>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
