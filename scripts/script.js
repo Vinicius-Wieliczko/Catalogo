@@ -1,4 +1,4 @@
-const url = 'https://catalogo-tykz.onrender.com/';
+const url = 'https://catalogo-tykz.onrender.com/insumos';
 
 async function carregar() {
     const resposta = await fetch(url);
