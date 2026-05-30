@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/insumos';
+const url = 'https://catalogo-tykz.onrender.com/insumos';
 
 // Carrega os dados na tela
 async function carregar() {
